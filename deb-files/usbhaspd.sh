@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Bash script for usbhasp start for read config
 
