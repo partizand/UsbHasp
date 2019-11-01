@@ -1,1 +1,3 @@
-dist/Release/GNU-Linux/usbhasp /usr/sbin/
+dist/Release/GNU-Linux/usbhasp usr/sbin/
+deb-files/usbhaspd.sh usr/sbin/
+deb-files/usbhaspd.conf etc/usbhaspd/

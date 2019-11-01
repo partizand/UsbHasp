@@ -16,6 +16,8 @@
 
 %:
 	dh $@
+override_dh_installsystemd:
+	dh_installsystemd --name=usbhaspd
 
 override_dh_auto_test:
 

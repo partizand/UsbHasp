@@ -1,0 +1,10 @@
+[Unit]
+Description=Usbhasp daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/usbhaspd.sh
+
+[Install]
+WantedBy=multi-user.target
+ 
