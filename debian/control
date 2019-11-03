@@ -2,7 +2,7 @@ Source: usbhasp
 Section: misc
 Priority: optional
 Maintainer: Partizand <partizand@gmail.com>
-Build-Depends: usb-vhci-hcd,libusb-vhci-dev (>=0.8),libjansson-dev (>= 2.0.1),debhelper (>= 11)
+Build-Depends: usb-vhci-hcd-dev,libusb-vhci-dev (>=0.8),libjansson-dev (>= 2.0.1),debhelper (>= 11)
 Standards-Version: 4.1.3
 Homepage: https://github.com/sam88651/UsbHasp
 #Vcs-Git: https://github.com/sam88651/UsbHasp.git
