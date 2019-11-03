@@ -35,6 +35,10 @@ fi
 
 DAEMON_ARGS="$keys"
 
+# Start kernel modules
+modprobe usb_vhci_hcd
+modprobe usb_vhci_iocifc
+
 # Start daemon
 $DAEMON_BIN $DAEMON_ARGS
 

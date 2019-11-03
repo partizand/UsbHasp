@@ -3,7 +3,7 @@ Description=Usbhasp daemon
 
 [Service]
 Type=simple
-ExecStart=/usr/sbin/usbhaspd.sh
+ExecStart=/usr/sbin/usbhaspd
 
 [Install]
 WantedBy=multi-user.target

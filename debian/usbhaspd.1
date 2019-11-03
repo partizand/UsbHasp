@@ -1,0 +1,33 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2019 Partizand <partizand@gmail.com>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH usbhaspd SECTION "November  2 2019"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+usbhaspd \- Script for start Usb hasp emulator from systemd unit
+.SH SYNOPSIS
+.B usbhaspd
+.SH DESCRIPTION
+Start usbhasp in systemd service. Usually don't need start manually. Also starts kernel modules. Read config from 
+.B /etc/usbhaspd/usbhaspd.conf 
+and all keys .json from 
+.B /etc/usbhaspd/keys/ 
+.SH OPTIONS
+No options for this program
+.SH SEE ALSO
+.BR usbhasp (1),
+.br
