@@ -1,6 +1,8 @@
-usbhasp (0.1-2) UNRELEASED; urgency=medium
+usbhasp (0.1-2) unstable; urgency=medium
 
   * Daemon start kernel modules
+  * man pages
+  * Fix build dependies
 
  -- Partizand <partizand@gmail.com>  Sun, 03 Nov 2019 19:19:33 +0400
 
