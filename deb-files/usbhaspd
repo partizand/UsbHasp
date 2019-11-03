@@ -7,7 +7,7 @@
 
 NAME=usbhaspd
 
-DAEMON_BIN=/usr/sbin/usbhasp
+DAEMON_BIN=/usr/bin/usbhasp
 
 DAEMON_CONF=/etc/${NAME}/${NAME}.conf
 
