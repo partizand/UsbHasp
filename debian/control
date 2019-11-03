@@ -10,6 +10,7 @@ Homepage: https://github.com/sam88651/UsbHasp
 Package: usbhasp
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: aksusbd
 Description: Research of usb hasp protection in Linux environment
  This project is about Usb hasp emulator on Linux. In particular on Debian based platforms.
  This package include usbhaspd systemd daemon.
